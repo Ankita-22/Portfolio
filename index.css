@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
 :root {
     --primary-color: #6D28D9;
     --dark--grey: #6B7280;
-    --off-white: #E5E7EB;
+    --off-white: #F3F4F6;
 }
 
 body {
-    font-family: 'Noto Sans JP', sans-serif;
-    margin: 0px
+    /* font-family: 'Noto Sans JP', sans-serif; */
+    margin: 0px;
+    font-family: 'Merriweather', serif;
 }
 /* Spaces */
 
@@ -22,11 +23,12 @@ hr {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 1rem;
+    /* background-color: var(--off-white); */
 }
 
-.container-center {
-    max-width: 600px;
-    margin: auto;
+.container-blog {
+    max-width: 600px; 
+     margin: auto;
 }
 
 /* links */
@@ -95,9 +97,9 @@ hr {
 
 /* header */
 
-.hero {
+/* .hero {
     padding: 2rem;
-}
+} */
 
 .hero .hero-img {
     margin: auto;
@@ -115,17 +117,18 @@ hr {
     color: var(--primary-color);
 }
 .hero p{
-    text-align: center;
+    margin-left: 24rem;
 }
 .hero-head{
-    /* text-align: center; */
-    margin-left: 16rem;
+    text-align: center;
+    /* margin-left: 16rem; */
 }
+
 /* section */
 
 .section h1 {
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 }
 /* .section p{
     text-align: center;
@@ -133,10 +136,14 @@ hr {
 .ow {
     background-color: var(--off-white);
     height: 167px;
+    text-align: center;
 }
-.on{
+/* .on{
     height:194px;
     background-color: var(--off-white);
+} */
+.blog{
+    /* text-align: center; */
 }
 .head{
     margin-left: 0px;
